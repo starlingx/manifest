@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="openstack" fetch="https://git.openstack.org/openstack" />
-  <remote name="starlingx" fetch="https://git.starlingx.io" />
+  <remote name="openstack" fetch="https://opendev.org/openstack" />
+  <remote name="starlingx" fetch="https://opendev.org/starlingx" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="kubernetes" fetch="https://github.com/kubernetes" />
   <remote name="docker" fetch="https://github.com/docker" />
@@ -14,22 +14,22 @@
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <default revision="master" remote="stx-staging"/>
 
-  <project remote="starlingx"  name="stx-tools.git" path="stx-tools"/>
+  <project remote="starlingx"  name="tools.git" path="stx-tools"/>
 
-  <project remote="starlingx"  name="stx-root.git" path="cgcs-root"/>
+  <project remote="starlingx"  name="root.git" path="cgcs-root"/>
 
-  <project remote="starlingx"  name="stx-clients.git" path="cgcs-root/stx/stx-clients"/>
-  <project remote="starlingx"  name="stx-config.git" path="cgcs-root/stx/stx-config"/>
-  <project remote="starlingx"  name="stx-distcloud.git" path="cgcs-root/stx/git/distributedcloud"/>
-  <project remote="starlingx"  name="stx-distcloud-client.git" path="cgcs-root/stx/git/distributedcloud-client"/>
-  <project remote="starlingx"  name="stx-fault.git" path="cgcs-root/stx/stx-fault"/>
-  <project remote="starlingx"  name="stx-gui.git" path="cgcs-root/stx/stx-gui"/>
-  <project remote="starlingx"  name="stx-ha.git" path="cgcs-root/stx/stx-ha"/>
-  <project remote="starlingx"  name="stx-integ.git" path="cgcs-root/stx/stx-integ"/>
-  <project remote="starlingx"  name="stx-metal.git" path="cgcs-root/stx/stx-metal"/>
-  <project remote="starlingx"  name="stx-nfv.git" path="cgcs-root/stx/stx-nfv"/>
-  <project remote="starlingx"  name="stx-update.git" path="cgcs-root/stx/stx-update"/>
-  <project remote="starlingx"  name="stx-upstream.git" path="cgcs-root/stx/stx-upstream"/>
+  <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/stx-clients"/>
+  <project remote="starlingx"  name="config.git" path="cgcs-root/stx/stx-config"/>
+  <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/git/distributedcloud"/>
+  <project remote="starlingx"  name="distcloud-client.git" path="cgcs-root/stx/git/distributedcloud-client"/>
+  <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/stx-fault"/>
+  <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/stx-gui"/>
+  <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/stx-ha"/>
+  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/stx-integ"/>
+  <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/stx-metal"/>
+  <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/stx-nfv"/>
+  <project remote="starlingx"  name="update.git" path="cgcs-root/stx/stx-update"/>
+  <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/stx-upstream"/>
 
   <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph"/>
