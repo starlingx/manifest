@@ -4,9 +4,7 @@
   <remote name="openstack" fetch="https://opendev.org/openstack" />
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
-  <remote name="kubernetes" fetch="https://github.com/kubernetes" />
   <remote name="docker" fetch="https://github.com/docker" />
-  <remote name="calico" fetch="https://github.com/projectcalico" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
@@ -31,28 +29,13 @@
   <project remote="starlingx"  name="update.git" path="cgcs-root/stx/stx-update"/>
   <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/stx-upstream"/>
 
-  <project remote="stx-staging"  name="stx-ceilometer.git" path="cgcs-root/stx/git/ceilometer"/>
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph" revision="stx/v13.2.2"/>
-  <project remote="stx-staging"  name="stx-cinder.git" path="cgcs-root/stx/git/cinder"/>
-  <project remote="stx-staging"  name="stx-glance.git" path="cgcs-root/stx/git/glance"/>
-  <project remote="stx-staging"  name="stx-ironic.git" path="cgcs-root/stx/git/ironic"/>
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
-  <project remote="stx-staging"  name="stx-magnum-ui.git" path="cgcs-root/stx/git/magnum-ui"/>
-  <project remote="stx-staging"  name="stx-murano.git" path="cgcs-root/stx/git/murano"/>
-  <project remote="stx-staging"  name="stx-murano-dashboard.git" path="cgcs-root/stx/git/murano-dashboard"/>
-  <project remote="stx-staging"  name="stx-networking-bgpvpn.git" path="cgcs-root/stx/git/networking-bgpvpn"/>
-  <project remote="stx-staging"  name="stx-networking-odl.git" path="cgcs-root/stx/git/networking-odl"/>
-  <project remote="stx-staging"  name="stx-networking-sfc.git" path="cgcs-root/stx/git/networking-sfc"/>
-  <project remote="stx-staging"  name="stx-neutron-dynamic-routing.git" path="cgcs-root/stx/git/neutron-dynamic-routing"/>
-  <project remote="stx-staging"  name="stx-neutron-lib.git" path="cgcs-root/stx/git/neutron-lib"/>
-  <project remote="stx-staging"  name="stx-neutron.git" path="cgcs-root/stx/git/neutron"/>
-  <project remote="stx-staging"  name="stx-nova.git" path="cgcs-root/stx/git/nova"/>
-  <project remote="stx-staging"  name="stx-heat.git" path="cgcs-root/stx/git/heat"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0-1" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
 
-  <!-- Stein Clients -->
+  <!-- Clients -->
   <project remote="openstack"  revision="stable/stein" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
   <project remote="openstack"  revision="stable/stein" name="python-barbicanclient.git" path="cgcs-root/stx/git/python-barbicanclient"/>
   <project remote="openstack"  revision="stable/stein" name="python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient"/>
@@ -70,7 +53,6 @@
   <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
   <!-- Pure Upstream -->
-  <project remote="openstack" revision="stable/pike" name="magnum.git" path="cgcs-root/stx/git/magnum"/>
   <project remote="openstack" revision="stable/stein"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
 
   <!-- HPE Storage -->
@@ -79,14 +61,6 @@
 
   <!-- Docker -->
   <project remote="docker" revision="refs/tags/v2.6.2" name="distribution.git" path="cgcs-root/stx/git/docker-distribution"/>
-
-  <!-- Kuberneties  -->
-  <project remote="kubernetes" revision="refs/tags/v1.9.6" name="kubernetes.git" path="cgcs-root/stx/git/kubernetes"/>
-  <project remote="kubernetes" revision="refs/tags/v1.8.3" name="dashboard.git" path="cgcs-root/stx/git/kube-dashboard"/>
-  <project remote="kubernetes" revision="refs/tags/1.14.8" name="dns.git" path="cgcs-root/stx/git/kube-dns"/>
-
-  <!-- Calico  -->
-  <project remote="calico" revision="refs/tags/v3.1.1" name="calico.git" path="cgcs-root/stx/git/calico"/>
 
   <!-- Keystoneauth  -->
   <project remote="openstack" revision="refs/tags/3.13.1" name="keystoneauth.git" path="cgcs-root/stx/git/python-keystoneauth"/>
