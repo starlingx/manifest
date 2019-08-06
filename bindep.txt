@@ -1,0 +1,2 @@
+libxml2-utils [platform:dpkg]
+libxml2 [platform:rpm]
