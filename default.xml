@@ -17,18 +17,28 @@
   <project remote="starlingx"  name="root.git" path="cgcs-root"/>
 
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/stx-ansible-playbooks"/>
-  <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/stx-clients"/>
-  <project remote="starlingx"  name="config.git" path="cgcs-root/stx/stx-config"/>
+  <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
+  <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile"/>
+  <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
+  <project remote="starlingx"  name="config-files.git" path="cgcs-root/stx/config-files"/>
+  <project remote="starlingx"  name="containers.git" path="cgcs-root/stx/containers"/>
   <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/git/distributedcloud"/>
   <project remote="starlingx"  name="distcloud-client.git" path="cgcs-root/stx/git/distributedcloud-client"/>
-  <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/stx-fault"/>
-  <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/stx-gui"/>
-  <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/stx-ha"/>
-  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/stx-integ"/>
-  <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/stx-metal"/>
-  <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/stx-nfv"/>
-  <project remote="starlingx"  name="update.git" path="cgcs-root/stx/stx-update"/>
-  <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/stx-upstream"/>
+  <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/fault"/>
+  <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/gui"/>
+  <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/ha"/>
+  <project remote="starlingx"  name="helm-charts.git" path="cgcs-root/stx/helm-charts"/>
+  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ"/>
+  <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/metal"/>
+  <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
+  <project remote="starlingx"  name="monitoring.git" path="cgcs-root/stx/monitoring"/>
+  <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/nfv"/>
+  <project remote="starlingx"  name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
+  <project remote="starlingx"  name="platform-armada-app.git" path="cgcs-root/stx/platform-armada-app"/>
+  <project remote="starlingx"  name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
+  <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
+  <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
+  <project remote="starlingx"  name="utilities.git" path="cgcs-root/stx/utilities"/>
 
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph" revision="stx/v13.2.2"/>
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
