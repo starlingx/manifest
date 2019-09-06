@@ -16,7 +16,7 @@
 
   <project remote="starlingx"  name="root.git" path="cgcs-root"/>
 
-  <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/stx-ansible-playbooks"/>
+  <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
   <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile"/>
   <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
