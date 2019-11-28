@@ -10,7 +10,7 @@
   <!-- for tests/experiments -->
 
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
-  <default revision="master" remote="stx-staging"/>
+  <default revision="r/stx.3.0" remote="stx-staging"/>
 
   <project remote="starlingx"  name="tools.git" path="stx-tools"/>
 
@@ -46,8 +46,8 @@
   <project remote="stx-staging"  name="stx-ceph.git" path="cgcs-root/stx/git/ceph" revision="stx/v13.2.2"/>
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0-1" path="cgcs-root/stx/git/qemu"/>
-  <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
-  <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
+  <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu" revision="master"/>
+  <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras" revision="master"/>
 
   <!-- Clients -->
   <project remote="openstack"  revision="stable/stein" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
