@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="openstack" fetch="https://opendev.org/openstack" />
+  <remote name="starlingx" fetch="https://opendev.org/starlingx" />
+  <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
+  <remote name="docker" fetch="https://github.com/docker" />
+  <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
+  <!-- note, you can also provide personal overrides for your own github -->
+  <!-- for tests/experiments -->
+
+  <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
+  <default remote="starlingx" revision="refs/tags/3.0.0"/>
+
+  <project remote="starlingx"  name="tools.git" path="stx-tools"/>
+
+  <project remote="starlingx"  name="root.git" path="cgcs-root"/>
+
+  <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
+  <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
+  <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile"/>
+  <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
+  <project remote="starlingx"  name="config-files.git" path="cgcs-root/stx/config-files"/>
+  <project remote="starlingx"  name="containers.git" path="cgcs-root/stx/containers"/>
+  <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/distributedcloud"/>
+  <project remote="starlingx"  name="distcloud-client.git" path="cgcs-root/stx/distributedcloud-client"/>
+  <project remote="starlingx"  name="docs.git" path="cgcs-root/stx/docs"/>
+  <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/fault"/>
+  <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/gui"/>
+  <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/ha"/>
+  <project remote="starlingx"  name="helm-charts.git" path="cgcs-root/stx/helm-charts"/>
+  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ"/>
+  <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/metal"/>
+  <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
+  <project remote="starlingx"  name="monitoring.git" path="cgcs-root/stx/monitoring"/>
+  <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/nfv"/>
+  <project remote="starlingx"  name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
+  <project remote="starlingx"  name="platform-armada-app.git" path="cgcs-root/stx/platform-armada-app"/>
+  <project remote="starlingx"  name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
+  <project remote="starlingx"  name="test.git" path="cgcs-root/stx/test"/>
+  <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
+  <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
+  <project remote="starlingx"  name="utilities.git" path="cgcs-root/stx/utilities"/>
+  <project remote="starlingx"  name="zuul-jobs.git" path="cgcs-root/stx/zuul-jobs"/>
+
+  <project remote="stx-staging"  revision="refs/tags/stx.3.0.0" name="stx-ceph.git" path="cgcs-root/stx/git/ceph"/>
+  <project remote="stx-staging"  revision="refs/tags/stx.3.0.0" name="stx-libvirt.git" path="cgcs-root/stx/git/libvirt"/>
+  <project remote="stx-staging"  revision="refs/tags/stx.3.0.0" name="stx-qemu.git" path="cgcs-root/stx/git/qemu"/>
+  <project remote="stx-staging"  revision="refs/tags/stx.3.0.0" name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
+  <project remote="stx-staging"  revision="refs/tags/stx.3.0.0" name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
+
+  <!-- Clients -->
+  <!-- The following SHA's mapped to stable/stein at the time of the 3.0.0 build -->
+  <project remote="openstack"  revision="65f5584541f434e589baa829473fd77cfad837b3" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
+  <project remote="openstack"  revision="df303ea047906326180b98035ed773b5b5a6ab5c" name="python-barbicanclient.git" path="cgcs-root/stx/git/python-barbicanclient"/>
+  <project remote="openstack"  revision="9c9e797d07f64d4841ecb695d177c5e0c7d8266b" name="python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient"/>
+  <project remote="openstack"  revision="4993b46d179d4e1c38fc4456a98e38c007385ce6" name="python-glanceclient.git" path="cgcs-root/stx/git/python-glanceclient"/>
+  <project remote="openstack"  revision="39cda16fb0ccdc8f919f99cbc92593c7535d9142" name="python-heatclient.git" path="cgcs-root/stx/git/python-heatclient"/>
+  <project remote="openstack"  revision="0bd26cc47ed51d19e07280db9e770ad09edd2bf8" name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient"/>
+  <project remote="openstack"  revision="2aa71240e386c97c73bc2ba771a0f22a4a041de8" name="python-keystoneclient.git" path="cgcs-root/stx/git/python-keystoneclient"/>
+  <project remote="openstack"  revision="f9808c19430780b10a755e57ca4ec9d316120e84" name="python-magnumclient.git" path="cgcs-root/stx/git/python-magnumclient"/>
+  <project remote="openstack"  revision="465a625ae3b432c538f4b8c6a13dd8aec5f21f50" name="python-muranoclient.git" path="cgcs-root/stx/git/python-muranoclient"/>
+  <project remote="openstack"  revision="450039b7f91f37acc742413af596cc4abb5af6ae" name="python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
+  <project remote="openstack"  revision="c7e793c22e72d4d426a6d10e9c2cfa426fedd365" name="python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
+  <project remote="openstack"  revision="111d6a9b23d8c6b9bcce437039ff49536f0b5dd1" name="python-openstackclient.git" path="cgcs-root/stx/git/python-openstackclient"/>
+  <project remote="openstack"  revision="5f3954793ef338685e521f56b4f250be8f15507f" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
+  <project remote="openstack"  revision="b6a3a65f783edcb8ad45340761f9a7b695ba1db4" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
+  <project remote="gnocchi"    revision="5e81639cc8a37316f66b1d29cc1a8509afcfdb56" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
+
+  <!-- Pure Upstream -->
+  <project remote="openstack" revision="4b319012235f941aa0b6a4cac46f5e733473c55b"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
+
+  <!-- HPE Storage -->
+  <project remote="hpe-storage" revision="d0e6de393cecc765eba70312c466e91405fb2a69" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
+  <project remote="hpe-storage" revision="db9773f0f97c5af04da89fcb7dca2a6ddf8d5e4a" name="python-lefthandclient.git" path="cgcs-root/stx/git/python-lefthandclient" />
+
+  <!-- Docker -->
+  <project remote="docker" revision="48294d928ced5dd9b378f7fd7c6f5da3ff3f2c89" name="distribution.git" path="cgcs-root/stx/git/docker-distribution"/>
+
+  <!-- Keystoneauth  -->
+  <project remote="openstack" revision="bde07bc95b5b5d16b829f72be7aaa62fab9d716a" name="keystoneauth.git" path="cgcs-root/stx/git/python-keystoneauth"/>
+</manifest>
