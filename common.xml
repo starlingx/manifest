@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project remote="starlingx"  name="tools.git" path="stx-tools"/>
+
+  <project remote="starlingx"  name="root.git" path="cgcs-root"/>
+
+  <project remote="starlingx"  name="docs.git" path="cgcs-root/stx/docs"/>
+  <project remote="starlingx"  name="test.git" path="cgcs-root/stx/test"/>
+  <project remote="starlingx"  name="zuul-jobs.git" path="cgcs-root/stx/zuul-jobs"/>
+</manifest>

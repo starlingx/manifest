@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="starlingx" fetch="https://opendev.org/starlingx" />
+  <!-- note, you can also provide personal overrides for your own github -->
+  <!-- for tests/experiments -->
+
+  <default revision="master" remote="starlingx"/>
+  <include name="common.xml" />
+
+  <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile" />
+
+</manifest>

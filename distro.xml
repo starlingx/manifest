@@ -1,50 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="openstack" fetch="https://opendev.org/openstack" />
-  <remote name="starlingx" fetch="https://opendev.org/starlingx" />
-  <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="docker" fetch="https://github.com/docker" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
+  <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
+  <remote name="openstack" fetch="https://opendev.org/openstack" />
+  <remote name="starlingx" fetch="https://opendev.org/starlingx" />
+  <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <default revision="master" remote="stx-staging"/>
+  <include name="common.xml" />
 
-  <project remote="starlingx"  name="tools.git" path="stx-tools"/>
-
-  <project remote="starlingx"  name="root.git" path="cgcs-root"/>
-
-  <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
-  <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
-  <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile"/>
-  <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
-  <project remote="starlingx"  name="config-files.git" path="cgcs-root/stx/config-files"/>
-  <project remote="starlingx"  name="containers.git" path="cgcs-root/stx/containers"/>
-  <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/distributedcloud"/>
-  <project remote="starlingx"  name="distcloud-client.git" path="cgcs-root/stx/distributedcloud-client"/>
-  <project remote="starlingx"  name="docs.git" path="cgcs-root/stx/docs"/>
-  <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/fault"/>
-  <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/gui"/>
-  <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/ha"/>
-  <project remote="starlingx"  name="helm-charts.git" path="cgcs-root/stx/helm-charts"/>
-  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ"/>
-  <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/metal"/>
-  <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
-  <project remote="starlingx"  name="monitoring.git" path="cgcs-root/stx/monitoring"/>
-  <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/nfv"/>
-  <project remote="starlingx"  name="oidc-auth-armada-app.git" path="cgcs-root/stx/oidc-auth-armada-app"/>
-  <project remote="starlingx"  name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
-  <project remote="starlingx"  name="platform-armada-app.git" path="cgcs-root/stx/platform-armada-app"/>
-  <project remote="starlingx"  name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
-  <project remote="starlingx"  name="test.git" path="cgcs-root/stx/test"/>
-  <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
+  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ" />
   <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
-  <project remote="starlingx"  name="utilities.git" path="cgcs-root/stx/utilities"/>
-  <project remote="starlingx"  name="zuul-jobs.git" path="cgcs-root/stx/zuul-jobs"/>
 
-  <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v13.2.2"  path="cgcs-root/stx/git/ceph" />
+  <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v13.2.2" path="cgcs-root/stx/git/ceph"/>
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0-1" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
