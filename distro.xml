@@ -23,20 +23,18 @@
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
 
   <!-- Clients -->
-  <project remote="openstack"  revision="stable/stein" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-barbicanclient.git" path="cgcs-root/stx/git/python-barbicanclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-glanceclient.git" path="cgcs-root/stx/git/python-glanceclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-heatclient.git" path="cgcs-root/stx/git/python-heatclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-keystoneclient.git" path="cgcs-root/stx/git/python-keystoneclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-magnumclient.git" path="cgcs-root/stx/git/python-magnumclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-muranoclient.git" path="cgcs-root/stx/git/python-muranoclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
-  <project remote="openstack"  revision="stable/stein" name="python-openstackclient.git" path="cgcs-root/stx/git/python-openstackclient"/>
-  <project remote="openstack"  revision="stable/stein" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
-  <project remote="openstack"  revision="stable/stein" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-barbicanclient.git" path="cgcs-root/stx/git/python-barbicanclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-glanceclient.git" path="cgcs-root/stx/git/python-glanceclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-heatclient.git" path="cgcs-root/stx/git/python-heatclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-keystoneclient.git" path="cgcs-root/stx/git/python-keystoneclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
+  <project remote="openstack"  revision="stable/train" name="python-openstackclient.git" path="cgcs-root/stx/git/python-openstackclient"/>
+  <project remote="openstack"  revision="stable/train" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
+  <project remote="openstack"  revision="stable/train" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
   <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
   <!-- Pure Upstream -->
@@ -50,5 +48,5 @@
   <project remote="docker" revision="refs/tags/v2.6.2" name="distribution.git" path="cgcs-root/stx/git/docker-distribution"/>
 
   <!-- Keystoneauth  -->
-  <project remote="openstack" revision="refs/tags/3.13.1" name="keystoneauth.git" path="cgcs-root/stx/git/python-keystoneauth"/>
+  <project remote="openstack" revision="stable/train" name="keystoneauth.git" path="cgcs-root/stx/git/python-keystoneauth"/>
 </manifest>
