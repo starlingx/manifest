@@ -9,6 +9,7 @@
   <include name="common.xml" />
 
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
+  <project remote="starlingx"  name="cert-manager-armada-app.git" path="cgcs-root/stx/cert-manager-armada-app"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
   <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
   <project remote="starlingx"  name="config-files.git" path="cgcs-root/stx/config-files"/>
@@ -23,6 +24,7 @@
   <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
   <project remote="starlingx"  name="monitoring.git" path="cgcs-root/stx/monitoring"/>
   <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/nfv"/>
+  <project remote="starlingx"  name="nginx-ingress-controller-armada-app.git" path="cgcs-root/stx/nginx-ingress-controller-armada-app"/>
   <project remote="starlingx"  name="oidc-auth-armada-app.git" path="cgcs-root/stx/oidc-auth-armada-app"/>
   <project remote="starlingx"  name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
   <project remote="starlingx"  name="platform-armada-app.git" path="cgcs-root/stx/platform-armada-app"/>
