@@ -14,6 +14,7 @@
   <include name="common.xml" />
 
   <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ" />
+  <project remote="starlingx"  name="kernel.git" path="cgcs-root/stx/kernel" />
   <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
 
   <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v13.2.2" path="cgcs-root/stx/git/ceph"/>
