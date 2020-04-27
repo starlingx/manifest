@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="docker" fetch="https://github.com/docker" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="openstack" fetch="https://opendev.org/openstack" />
@@ -44,9 +43,6 @@
   <!-- HPE Storage -->
   <project remote="hpe-storage" revision="refs/tags/4.2.3" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
   <project remote="hpe-storage" revision="refs/tags/2.1.0" name="python-lefthandclient.git" path="cgcs-root/stx/git/python-lefthandclient" />
-
-  <!-- Docker -->
-  <project remote="docker" revision="refs/tags/v2.6.2" name="distribution.git" path="cgcs-root/stx/git/docker-distribution"/>
 
   <!-- Keystoneauth  -->
   <project remote="openstack" revision="stable/train" name="keystoneauth.git" path="cgcs-root/stx/git/python-keystoneauth"/>

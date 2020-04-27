@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="docker" fetch="https://github.com/docker" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="openstack" fetch="https://opendev.org/openstack" />
