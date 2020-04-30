@@ -39,7 +39,7 @@
   <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
   <!-- Pure Upstream -->
-  <project remote="openstack" revision="stable/stein"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
+  <project remote="openstack" revision="stable/train"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
 
   <!-- HPE Storage -->
   <project remote="hpe-storage" revision="refs/tags/4.2.3" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
