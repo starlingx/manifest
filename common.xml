@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project remote="starlingx"  name="tools.git" path="stx-tools"/>
+  <project remote="starlingx"  name="tools.git" revision="f/centos8" path="stx-tools"/>
 
-  <project remote="starlingx"  name="root.git" path="cgcs-root"/>
+  <project remote="starlingx"  name="root.git" revision="f/centos8" path="cgcs-root"/>
 
   <project remote="starlingx"  name="docs.git" path="cgcs-root/stx/docs"/>
   <project remote="starlingx"  name="test.git" path="cgcs-root/stx/test"/>

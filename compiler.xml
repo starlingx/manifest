@@ -8,6 +8,6 @@
   <default revision="master" remote="starlingx"/>
   <include name="common.xml" />
 
-  <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile" />
+  <project remote="starlingx"  name="compile.git" revision="f/centos8" path="cgcs-root/stx/compile" />
 
 </manifest>
