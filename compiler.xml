@@ -5,7 +5,7 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <default revision="r/stx.4.0" remote="starlingx"/>
+  <default revision="master" remote="starlingx"/>
   <include name="common.xml" />
 
   <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile" />
