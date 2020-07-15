@@ -45,6 +45,7 @@
   <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
   <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
   <project remote="starlingx"  name="utilities.git" path="cgcs-root/stx/utilities"/>
+  <project remote="starlingx"  name="vault-armada-app.git" path="cgcs-root/stx/vault-armada-app"/>
   <project remote="starlingx"  name="zuul-jobs.git" path="cgcs-root/stx/zuul-jobs"/>
 
   <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v13.2.2"  path="cgcs-root/stx/git/ceph" />
