@@ -5,7 +5,7 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <default revision="refs/tags/4.0.0" remote="starlingx"/>
+  <default revision="refs/tags/4.0.1" remote="starlingx"/>
   <include name="common.xml" />
 
   <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile" />
