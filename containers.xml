@@ -33,6 +33,7 @@
   <project remote="starlingx"  name="platform-armada-app.git" path="cgcs-root/stx/platform-armada-app"/>
   <project remote="starlingx"  name="portieris-armada-app.git" path="cgcs-root/stx/portieris-armada-app"/>
   <project remote="starlingx"  name="rook-ceph.git" path="cgcs-root/stx/rook-ceph"/>
+  <project remote="starlingx"  name="snmp-armada-app.git" path="cgcs-root/stx/snmp-armada-app"/>
   <project remote="starlingx"  name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
   <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
   <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
