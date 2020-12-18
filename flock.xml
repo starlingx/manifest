@@ -35,4 +35,5 @@
   <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
   <project remote="starlingx"  name="utilities.git" path="cgcs-root/stx/utilities"/>
   <project remote="starlingx"  name="vault-armada-app.git" path="cgcs-root/stx/vault-armada-app"/>
+  <project remote="starlingx"  name="SDO-rv-service.git" path="cgcs-root/stx/SDO-rv-service"/>
 </manifest>
