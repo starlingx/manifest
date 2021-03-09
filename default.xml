@@ -17,7 +17,7 @@
   <project remote="starlingx"  name="root.git" revision="f/centos8" path="cgcs-root"/>
 
   <project remote="starlingx"  name="ansible-playbooks.git" revision="f/centos8" path="cgcs-root/stx/ansible-playbooks"/>
-  <project remote="starlingx"  name="cert-manager-armada-app.git" path="cgcs-root/stx/cert-manager-armada-app"/>
+  <project remote="starlingx"  name="cert-manager-armada-app.git" revision="f/centos8" path="cgcs-root/stx/cert-manager-armada-app"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
   <project remote="starlingx"  name="compile.git" revision="f/centos8" path="cgcs-root/stx/compile"/>
   <project remote="starlingx"  name="config.git" revision="f/centos8" path="cgcs-root/stx/config"/>
@@ -40,7 +40,7 @@
   <project remote="starlingx"  name="oidc-auth-armada-app.git" revision="f/centos8" path="cgcs-root/stx/oidc-auth-armada-app"/>
   <project remote="starlingx"  name="openstack-armada-app.git" revision="f/centos8" path="cgcs-root/stx/openstack-armada-app"/>
   <project remote="starlingx"  name="platform-armada-app.git" revision="f/centos8" path="cgcs-root/stx/platform-armada-app"/>
-  <project remote="starlingx"  name="portieris-armada-app.git" path="cgcs-root/stx/portieris-armada-app"/>
+  <project remote="starlingx"  name="portieris-armada-app.git" revision="f/centos8" path="cgcs-root/stx/portieris-armada-app"/>
   <project remote="starlingx"  name="stx-puppet.git" revision="f/centos8" path="cgcs-root/stx/stx-puppet"/>
   <project remote="starlingx"  name="test.git" path="cgcs-root/stx/test"/>
   <project remote="starlingx"  name="update.git" revision="f/centos8" path="cgcs-root/stx/update"/>
