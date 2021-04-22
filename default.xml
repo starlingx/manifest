@@ -36,7 +36,7 @@
   <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
   <project remote="starlingx"  name="monitoring.git" revision="f/centos8" path="cgcs-root/stx/monitoring"/>
   <project remote="starlingx"  name="nfv.git" revision="f/centos8" path="cgcs-root/stx/nfv"/>
-  <project remote="starlingx"  name="nginx-ingress-controller-armada-app.git" path="cgcs-root/stx/nginx-ingress-controller-armada-app"/>
+  <project remote="starlingx"  name="nginx-ingress-controller-armada-app.git" revision="f/centos8" path="cgcs-root/stx/nginx-ingress-controller-armada-app"/>
   <project remote="starlingx"  name="oidc-auth-armada-app.git" revision="f/centos8" path="cgcs-root/stx/oidc-auth-armada-app"/>
   <project remote="starlingx"  name="openstack-armada-app.git" revision="f/centos8" path="cgcs-root/stx/openstack-armada-app"/>
   <project remote="starlingx"  name="platform-armada-app.git" revision="f/centos8" path="cgcs-root/stx/platform-armada-app"/>
