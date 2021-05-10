@@ -25,6 +25,7 @@
   <project remote="starlingx"  name="helm-charts.git" path="cgcs-root/stx/helm-charts"/>
   <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ" />
   <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/metal"/>
+  <project remote="starlingx"  name="metrics-server-armada-app.git" path="cgcs-root/stx/metrics-server-armada-app"/>
   <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
   <project remote="starlingx"  name="monitoring.git" path="cgcs-root/stx/monitoring"/>
   <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/nfv"/>
