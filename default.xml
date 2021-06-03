@@ -16,6 +16,7 @@
   <project remote="starlingx"  name="root.git" path="cgcs-root"/>
 
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
+  <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
   <project remote="starlingx"  name="cert-manager-armada-app.git" path="cgcs-root/stx/cert-manager-armada-app"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
   <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile"/>
