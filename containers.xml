@@ -13,6 +13,7 @@
   <include name="common.xml" />
   
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
+  <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
   <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
   <project remote="starlingx"  name="config-files.git" path="cgcs-root/stx/config-files"/>
