@@ -5,6 +5,7 @@
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
+  <remote name="linux-yocto" fetch="https://git.yoctoproject.org/git/" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
@@ -74,6 +75,10 @@
   <project remote="openstack"  revision="stable/train" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
   <project remote="openstack"  revision="stable/train" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
   <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
+
+  <!-- linux-yocto Upstream -->
+  <project remote="linux-yocto"    revision="1e798745fa8ef91ffe4fd38d443f9d44b59e3cb3" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
+  <project remote="linux-yocto"    revision="2112f10d3d0b558c9ece3ab562c41b7f6d89cff4" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
 
   <!-- Pure Upstream -->
   <project remote="openstack" revision="stable/train"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
