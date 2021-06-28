@@ -6,7 +6,7 @@
   <remote name="openstack" fetch="https://opendev.org/openstack" />
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
-  <remote name="linux-yocto" fetch="https://git.yoctoproject.org/git/" />
+  <remote name="linux-yocto" fetch="git://git.yoctoproject.org/" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
