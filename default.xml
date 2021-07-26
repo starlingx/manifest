@@ -77,9 +77,9 @@
   <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
   <!-- linux-yocto Upstream -->
-  <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/x86" revision="refs/tags/v5.10.30" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
+  <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="refs/tags/v5.10.30" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
   <!-- this sha merges 5.10.37 into preempt-rt -->
-  <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/x86" revision="2112f10d3d0b558c9ece3ab562c41b7f6d89cff4" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
+  <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="bced2cdbd646996800d920c1604bffbb050a62ab" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
 
 
   <!-- Pure Upstream -->
