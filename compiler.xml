@@ -5,9 +5,9 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <default revision="master" remote="starlingx"/>
+  <default revision="f/ceph_nautilus_upgrade" remote="starlingx"/>
   <include name="common.xml" />
 
-  <project remote="starlingx"  name="compile.git" path="cgcs-root/stx/compile" />
+  <project remote="starlingx"  revision="5f0f710f66852568b3a27bffafaedf0247227984" name="compile.git" path="cgcs-root/stx/compile" />
 
 </manifest>

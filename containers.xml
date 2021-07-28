@@ -9,39 +9,39 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
   
-  <default revision="master" remote="stx-staging"/>
+  <default revision="f/ceph_nautilus_upgrade" remote="stx-staging"/>
   <include name="common.xml" />
   
-  <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
-  <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
-  <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
-  <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
-  <project remote="starlingx"  name="config-files.git" path="cgcs-root/stx/config-files"/>
-  <project remote="starlingx"  name="containers.git" path="cgcs-root/stx/containers"/>
-  <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/distributedcloud"/> 
-  <project remote="starlingx"  name="distcloud-client.git" path="cgcs-root/stx/distributedcloud-client"/>
-  <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/fault"/>
-  <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/gui"/>
-  <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/ha"/>
-  <project remote="starlingx"  name="helm-charts.git" path="cgcs-root/stx/helm-charts"/>
-  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ" />
-  <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/metal"/>
-  <project remote="starlingx"  name="metrics-server-armada-app.git" path="cgcs-root/stx/metrics-server-armada-app"/>
-  <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
-  <project remote="starlingx"  name="monitoring.git" path="cgcs-root/stx/monitoring"/>
-  <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/nfv"/>
-  <project remote="starlingx"  name="oidc-auth-armada-app.git" path="cgcs-root/stx/oidc-auth-armada-app"/>
-  <project remote="starlingx"  name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
-  <project remote="starlingx"  name="platform-armada-app.git" path="cgcs-root/stx/platform-armada-app"/>
-  <project remote="starlingx"  name="portieris-armada-app.git" path="cgcs-root/stx/portieris-armada-app"/>
-  <project remote="starlingx"  name="ptp-notification-armada-app.git" path="cgcs-root/stx/ptp-notification-armada-app"/>
-  <project remote="starlingx"  name="rook-ceph.git" path="cgcs-root/stx/rook-ceph"/>
-  <project remote="starlingx"  name="snmp-armada-app.git" path="cgcs-root/stx/snmp-armada-app"/>
-  <project remote="starlingx"  name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
-  <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
-  <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
-  <project remote="starlingx"  name="utilities.git" path="cgcs-root/stx/utilities"/>
-  <project remote="starlingx"  name="vault-armada-app.git" path="cgcs-root/stx/vault-armada-app"/>
-  <project remote="starlingx"  name="SDO-rv-service.git" path="cgcs-root/stx/SDO-rv-service"/>
+  <project remote="starlingx"  revision="95e3828e75468ccc3ed30493847d3cd0daf3f519" name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
+  <project remote="starlingx"  revision="354c3da961499a969973e6d9ddff934841b35ca7" name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
+  <project remote="starlingx"  revision="638425380e7a9b06de0732cf2d3379f1a17b5b5e" name="clients.git" path="cgcs-root/stx/clients"/>
+  <project remote="starlingx"  revision="f/ceph_nautilus_upgrade"                  name="config.git" path="cgcs-root/stx/config"/>
+  <project remote="starlingx"  revision="663e719021f5f515a81806d8fd365b634102a247" name="config-files.git" path="cgcs-root/stx/config-files"/>
+  <project remote="starlingx"  revision="7592010c7ae2f7f4a7338641bf34e32b754613b1" name="containers.git" path="cgcs-root/stx/containers"/>
+  <project remote="starlingx"  revision="b4ef7c7bd3c0123084f7c2603144eadc5c0f8ad0" name="distcloud.git" path="cgcs-root/stx/distributedcloud"/>
+  <project remote="starlingx"  revision="87b226498c31d97a776286bb7e109a2c1b0c38ba" name="distcloud-client.git" path="cgcs-root/stx/distributedcloud-client"/>
+  <project remote="starlingx"  revision="d0d380da09c8cda56f9a8b267c04c5a03b5baf58" name="fault.git" path="cgcs-root/stx/fault"/>
+  <project remote="starlingx"  revision="833829384010b6af2f4724dee8f08abd3baab2cb" name="gui.git" path="cgcs-root/stx/gui"/>
+  <project remote="starlingx"  revision="f/ceph_nautilus_upgrade"                  name="ha.git" path="cgcs-root/stx/ha"/>
+  <project remote="starlingx"  revision="573c5acfe8378565914fdf45c5100334bcf47ec4" name="helm-charts.git" path="cgcs-root/stx/helm-charts"/>
+  <project remote="starlingx"  revision="f/ceph_nautilus_upgrade"                  name="integ.git" path="cgcs-root/stx/integ" />
+  <project remote="starlingx"  revision="f/ceph_nautilus_upgrade"                  name="metal.git" path="cgcs-root/stx/metal"/>
+  <project remote="starlingx"  revision="260caa0d630712d85d5781c30d8e0644a9522ff1" name="metrics-server-armada-app.git" path="cgcs-root/stx/metrics-server-armada-app"/>
+  <project remote="starlingx"  revision="cc0fe433b49bc9dd687116842939dc137886e638" name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
+  <project remote="starlingx"  revision="aa8665cebf7913877bcd0dc74d1d3565a163553b" name="monitoring.git" path="cgcs-root/stx/monitoring"/>
+  <project remote="starlingx"  revision="8a4b7be55e30ab3191f27df7308306be95725d06" name="nfv.git" path="cgcs-root/stx/nfv"/>
+  <project remote="starlingx"  revision="5b0faac2d6a20f8910575d60ba0911e3741629f5" name="oidc-auth-armada-app.git" path="cgcs-root/stx/oidc-auth-armada-app"/>
+  <project remote="starlingx"  revision="2c483f00e29a4417f381228cc7b1065b81cef353" name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
+  <project remote="starlingx"  revision="10051cce95de6f1eaff5105dd1cc757b773a4026" name="platform-armada-app.git" path="cgcs-root/stx/platform-armada-app"/>
+  <project remote="starlingx"  revision="edc1c00f5488197d8a3544be18f398675d189bec" name="portieris-armada-app.git" path="cgcs-root/stx/portieris-armada-app"/>
+  <project remote="starlingx"  revision="dce1b4aebac77c4f1bc81cc4ad47b947d630c1e4" name="ptp-notification-armada-app.git" path="cgcs-root/stx/ptp-notification-armada-app"/>
+  <project remote="starlingx"  revision="8fcb259d3764fdbbbd17b61594249f6319f75408" name="rook-ceph.git" path="cgcs-root/stx/rook-ceph"/>
+  <project remote="starlingx"  revision="c6c16c06826efd003db3690b4385ea19dd8fa11a" name="snmp-armada-app.git" path="cgcs-root/stx/snmp-armada-app"/>
+  <project remote="starlingx"  revision="2ca5846f7c8f5900f0e78fc1dcb4623943e72b68" name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
+  <project remote="starlingx"  revision="37e68c0d5468fd26becea12bc6acb194f090e564" name="update.git" path="cgcs-root/stx/update"/>
+  <project remote="starlingx"  revision="f/ceph_nautilus_upgrade"                  name="upstream.git" path="cgcs-root/stx/upstream"/>
+  <project remote="starlingx"  revision="d97698505e7010bfe47fa10c8d37e8c0158fd1bb" name="utilities.git" path="cgcs-root/stx/utilities"/>
+  <project remote="starlingx"  revision="c85f980a6d8a5c672367651e7b173973a62a2414" name="vault-armada-app.git" path="cgcs-root/stx/vault-armada-app"/>
+  <project remote="starlingx"  revision="b0f2cbdf62feb815080a5d1e47b0af707d57e363" name="SDO-rv-service.git" path="cgcs-root/stx/SDO-rv-service"/>
 </manifest>
 
