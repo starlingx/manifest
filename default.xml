@@ -56,7 +56,7 @@
   <project remote="starlingx"  revision="b0f2cbdf62feb815080a5d1e47b0af707d57e363" name="SDO-rv-service.git" path="cgcs-root/stx/SDO-rv-service"/>
 
   <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v14.2.22"  path="cgcs-root/stx/git/ceph" />
-  <project remote="stx-staging"  name="stx-libvirt.git" revision="956103e7bb332045a83b35f000fbfb94bb779d87" path="cgcs-root/stx/git/libvirt"/>
+  <project remote="stx-staging"  name="stx-libvirt.git" revision="f/ceph_nautilus_upgrade" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="d3400d2be2244058cfad6a3778834c3e97c7005d" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  revision="e73cdeab37d4890138f9c48bf41cf08974ab2146" name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  revision="cc6f677570b4f0e7ba44a91d5dff33164b8b76bc" name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
