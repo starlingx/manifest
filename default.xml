@@ -6,6 +6,7 @@
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <remote name="linux-yocto" fetch="git://git.yoctoproject.org/" />
+  <remote name="github-wr" fetch="git://github.com/Wind-River" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
@@ -81,6 +82,8 @@
   <!-- this sha merges 5.10.37 into preempt-rt -->
   <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="bced2cdbd646996800d920c1604bffbb050a62ab" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
 
+  <!-- LAT Upstream -->
+  <project remote="github-wr"  revision="main" name="meta-lat" path="cgcs-root/stx/git/meta-lat"/>
 
   <!-- Pure Upstream -->
   <project remote="openstack" revision="stable/train"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
