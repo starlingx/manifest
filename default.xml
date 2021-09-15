@@ -46,7 +46,7 @@
   <project remote="starlingx"  revision="dce1b4aebac77c4f1bc81cc4ad47b947d630c1e4" name="ptp-notification-armada-app.git" path="cgcs-root/stx/ptp-notification-armada-app"/>
   <project remote="starlingx"  revision="8fcb259d3764fdbbbd17b61594249f6319f75408" name="rook-ceph.git" path="cgcs-root/stx/rook-ceph"/>
   <project remote="starlingx"  revision="c6c16c06826efd003db3690b4385ea19dd8fa11a" name="snmp-armada-app.git" path="cgcs-root/stx/snmp-armada-app"/>
-  <project remote="starlingx"  revision="2ca5846f7c8f5900f0e78fc1dcb4623943e72b68" name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
+  <project remote="starlingx"  revision="f/ceph_nautilus_upgrade"                  name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
   <project remote="starlingx"  revision="005b2d5dc2b63a5cc4377364a868ffd77ee7b2b8" name="test.git" path="cgcs-root/stx/test"/>
   <project remote="starlingx"  revision="37e68c0d5468fd26becea12bc6acb194f090e564" name="update.git" path="cgcs-root/stx/update"/>
   <project remote="starlingx"  revision="a4046414b634e027f646be58502f3af2ea2329f0" name="upstream.git" path="cgcs-root/stx/upstream"/>
