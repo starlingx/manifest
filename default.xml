@@ -6,6 +6,7 @@
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <remote name="linux-yocto" fetch="git://git.yoctoproject.org/" />
+  <remote name="github-wr" fetch="git://github.com/Wind-River" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
@@ -81,6 +82,8 @@
   <!-- linux-yocto Upstream branch is v5.10/standard/preempt-rt/base, commit 9ad4f13ee44c39e890638d8a2157adcf830fc7bc that adds the preempt_rt patchset based on the same code of std kernel -->
   <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="9ad4f13ee44c39e890638d8a2157adcf830fc7bc" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
 
+  <!-- LAT Upstream -->
+  <project remote="github-wr"  revision="main" name="meta-lat" path="cgcs-root/stx/git/meta-lat"/>
 
   <!-- Pure Upstream -->
   <project remote="openstack" revision="stable/train"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
