@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
+  <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
+  <remote name="openstack" fetch="https://opendev.org/openstack" />
+  <remote name="starlingx" fetch="https://opendev.org/starlingx" />
+  <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
+  <!-- note, you can also provide personal overrides for your own github -->
+  <!-- for tests/experiments -->
+
+  <default revision="refs/tags/5.0.1" remote="stx-staging"/>
+  <include name="common.xml" />
+
+  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ" />
+  <project remote="starlingx"  name="kernel.git" path="cgcs-root/stx/kernel" />
+  <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
+
+  <project remote="stx-staging"  name="stx-ceph.git" revision="ddfb3f76cc29f499fa13730e8ff6335d80cdc3b2"  path="cgcs-root/stx/git/ceph" />
+  <project remote="stx-staging"  name="stx-libvirt.git" revision="956103e7bb332045a83b35f000fbfb94bb779d87" path="cgcs-root/stx/git/libvirt"/>
+  <project remote="stx-staging"  name="stx-qemu.git" revision="d3400d2be2244058cfad6a3778834c3e97c7005d" path="cgcs-root/stx/git/qemu"/>
+  <project remote="stx-staging"  revision="e73cdeab37d4890138f9c48bf41cf08974ab2146" name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
+  <project remote="stx-staging"  revision="cc6f677570b4f0e7ba44a91d5dff33164b8b76bc" name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
+
+  <!-- Clients -->
+  <project remote="openstack"  revision="d60577d671ce8a9f571e0bf98d19dc774700cf7b" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
+  <project remote="openstack"  revision="4a317ddd9a8f5b1885f93dbc618cab50044320fa" name="python-barbicanclient.git" path="cgcs-root/stx/git/python-barbicanclient"/>
+  <project remote="openstack"  revision="a87dd1ccc8a3ad1e40569648e50fe5c2fe068478" name="python-cinderclient.git" path="cgcs-root/stx/git/python-cinderclient"/>
+  <project remote="openstack"  revision="1aba8f2d248040364e690dd8dc7f3a508baed631" name="python-glanceclient.git" path="cgcs-root/stx/git/python-glanceclient"/>
+  <project remote="openstack"  revision="ed9edc6b36ebc8c1ddbfbd4a35ea5793910176db" name="python-heatclient.git" path="cgcs-root/stx/git/python-heatclient"/>
+  <project remote="openstack"  revision="1220d7685723b8235135d2d02c11008c7f7fb18a" name="python-ironicclient.git" path="cgcs-root/stx/git/python-ironicclient"/>
+  <project remote="openstack"  revision="13b7e7615d70aa169c5944958f9b6312002867db" name="python-keystoneclient.git" path="cgcs-root/stx/git/python-keystoneclient"/>
+  <project remote="openstack"  revision="a09e82470fd934e1ecb46b53a1c0836ef4df744b" name="python-neutronclient.git" path="cgcs-root/stx/git/python-neutronclient"/>
+  <project remote="openstack"  revision="79959abc90bc615687e3a940951ad9ec548178ec" name="python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
+  <project remote="openstack"  revision="de0be9db05ac2fe955b014b05f2e03411e684494" name="python-openstackclient.git" path="cgcs-root/stx/git/python-openstackclient"/>
+  <project remote="openstack"  revision="8a90d04e276c91df6f59a39a90ae6989053a0fc9" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
+  <project remote="openstack"  revision="bee472d5f5b11bed1eb5bb67c06717fd8bc4008c" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
+  <project remote="gnocchi"    revision="8f257447e71a973e969b565f173f635a837b4bf0" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
+ 
+
+  <!-- Pure Upstream -->
+  <project remote="openstack" revision="2d2f944e2fe127433f2973ef77ba86ec997cf434"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
+
+  <!-- HPE Storage -->
+  <project remote="hpe-storage" revision="d0e6de393cecc765eba70312c466e91405fb2a69" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
+  <project remote="hpe-storage" revision="db9773f0f97c5af04da89fcb7dca2a6ddf8d5e4a" name="python-lefthandclient.git" path="cgcs-root/stx/git/python-lefthandclient" />
+
+  <!-- Keystoneauth  -->
+  <project remote="openstack" revision="8dc7366e7667149c33d26a1b1a05a10c3ac47f26" name="keystoneauth.git" path="cgcs-root/stx/git/python-keystoneauth"/>
+</manifest>
