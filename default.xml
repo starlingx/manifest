@@ -7,6 +7,7 @@
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <remote name="linux-yocto" fetch="git://git.yoctoproject.org/" />
   <remote name="github-wr" fetch="git://github.com/Wind-River" />
+  <remote name="debian" fetch="https://salsa.debian.org/debian/" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
@@ -84,6 +85,9 @@
 
   <!-- LAT Upstream -->
   <project remote="github-wr"  revision="main" name="meta-lat" path="cgcs-root/stx/git/meta-lat"/>
+
+  <!-- ostree debian Upstream -->
+  <project remote="debian"  revision="refs/tags/debian/2019.1-1" name="ostree.git" path="cgcs-root/stx/git/ostree"/>
 
   <!-- Pure Upstream -->
   <project remote="openstack" revision="stable/train"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
