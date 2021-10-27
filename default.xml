@@ -57,7 +57,7 @@
   <project remote="starlingx"  name="zuul-jobs.git" path="cgcs-root/stx/zuul-jobs"/>
   <project remote="starlingx"  name="SDO-rv-service.git" path="cgcs-root/stx/SDO-rv-service"/>
 
-  <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v13.2.2"  path="cgcs-root/stx/git/ceph" />
+  <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v14.2.22"  path="cgcs-root/stx/git/ceph" />
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0-1" path="cgcs-root/stx/git/qemu"/>
   <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
