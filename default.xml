@@ -6,7 +6,7 @@
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <remote name="linux-yocto" fetch="git://git.yoctoproject.org/" />
-  <remote name="github-wr" fetch="git://github.com/Wind-River" />
+  <remote name="github-wr" fetch="https://github.com/Wind-River" />
   <remote name="debian" fetch="https://salsa.debian.org/debian/" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
