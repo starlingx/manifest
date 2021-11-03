@@ -78,10 +78,10 @@
   <project remote="openstack"  revision="stable/train" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
   <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
-  <!-- linux-yocto Upstream branch is v5.10/standard/base, commit b1ff0bb0de7abc5039e0db14f66e01eb0a3c24bb is Merge tag 'v5.10.57' into v5.10/standard/base -->
-  <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="b1ff0bb0de7abc5039e0db14f66e01eb0a3c24bb" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
-  <!-- linux-yocto Upstream branch is v5.10/standard/preempt-rt/base, commit 9ad4f13ee44c39e890638d8a2157adcf830fc7bc that adds the preempt_rt patchset based on the same code of std kernel -->
-  <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="9ad4f13ee44c39e890638d8a2157adcf830fc7bc" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
+  <!-- linux-yocto Upstream branch is v5.10/standard/base, commit 9e84a42af61ff9c6feb89ab8d61ee5f25fb35c72 is Merge tag 'v5.10.74' into v5.10/standard/base -->
+  <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="9e84a42af61ff9c6feb89ab8d61ee5f25fb35c72" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
+  <!-- linux-yocto Upstream branch is v5.10/standard/preempt-rt/base, commit 8048444fc7e44c6fc04a5e0b35d6117fe51c17fc that adds the preempt_rt patchset based on the same code of std kernel -->
+  <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="8048444fc7e44c6fc04a5e0b35d6117fe51c17fc" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
 
   <!-- LAT Upstream -->
   <project remote="github-wr"  revision="main" name="meta-lat" path="cgcs-root/stx/git/meta-lat"/>
