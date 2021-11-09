@@ -84,7 +84,7 @@
   <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="8048444fc7e44c6fc04a5e0b35d6117fe51c17fc" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
 
   <!-- LAT Upstream -->
-  <project remote="github-wr"  revision="main" name="meta-lat" path="cgcs-root/stx/git/meta-lat"/>
+  <project remote="github-wr"  revision="refs/tags/20211104" name="meta-lat" path="cgcs-root/stx/git/meta-lat"/>
 
   <!-- ostree debian Upstream -->
   <project remote="debian"  revision="refs/tags/debian/2019.1-1" name="ostree.git" path="cgcs-root/stx/git/ostree"/>
