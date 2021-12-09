@@ -3,6 +3,7 @@
 
   <remote name="openstack" fetch="https://opendev.org/openstack" />
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
+  <remote name="starlingx-docs" fetch="https://opendev.org/starlingx" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <remote name="linux-yocto" fetch="git://git.yoctoproject.org/" />
@@ -12,7 +13,7 @@
   <!-- for tests/experiments -->
 
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
-  <default revision="master" remote="stx-staging"/>
+  <default revision="r/stx.6.0" remote="stx-staging"/>
 
   <project remote="starlingx"  name="tools.git" path="stx-tools"/>
 
@@ -28,7 +29,7 @@
   <project remote="starlingx"  name="containers.git" path="cgcs-root/stx/containers"/>
   <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/distributedcloud"/>
   <project remote="starlingx"  name="distcloud-client.git" path="cgcs-root/stx/distributedcloud-client"/>
-  <project remote="starlingx"  name="docs.git" path="cgcs-root/stx/docs"/>
+  <project remote="starlingx-docs" revision="master" name="docs.git" path="cgcs-root/stx/docs"/>
   <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/fault"/>
   <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/gui"/>
   <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/ha"/>
@@ -60,8 +61,8 @@
   <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v14.2.22"  path="cgcs-root/stx/git/ceph" />
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0-1" path="cgcs-root/stx/git/qemu"/>
-  <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
-  <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
+  <project remote="stx-staging"  name="stx-ryu.git" revision="e73cdeab37d4890138f9c48bf41cf08974ab2146" path="cgcs-root/stx/git/ryu"/>
+  <project remote="stx-staging"  name="stx-openstack-ras.git" revision="4ba6047db1b70ee2bb3dd43739de7d2fb4e85ebd" path="cgcs-root/stx/git/openstack-ras"/>
 
   <!-- Clients -->
   <project remote="openstack"  revision="stable/train" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
@@ -76,7 +77,7 @@
   <project remote="openstack"  revision="stable/train" name="python-openstackclient.git" path="cgcs-root/stx/git/python-openstackclient"/>
   <project remote="openstack"  revision="stable/train" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
   <project remote="openstack"  revision="stable/train" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
-  <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
+  <project remote="gnocchi"    revision="7355fb2d7d3311f5962230a565574ce8c76c1caa" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
   <!-- linux-yocto Upstream branch is v5.10/standard/base, commit 9e84a42af61ff9c6feb89ab8d61ee5f25fb35c72 is Merge tag 'v5.10.74' into v5.10/standard/base -->
   <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="9e84a42af61ff9c6feb89ab8d61ee5f25fb35c72" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
