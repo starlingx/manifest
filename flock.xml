@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
+  <remote name="starlingx-docs" fetch="https://opendev.org/starlingx" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 

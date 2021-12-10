@@ -5,6 +5,7 @@
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="openstack" fetch="https://opendev.org/openstack" />
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
+  <remote name="starlingx-docs" fetch="https://opendev.org/starlingx" />
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
