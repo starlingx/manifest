@@ -6,8 +6,6 @@
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
   <remote name="linux-yocto" fetch="git://git.yoctoproject.org/" />
-  <remote name="github-wr" fetch="https://github.com/Wind-River" />
-  <remote name="debian" fetch="https://salsa.debian.org/debian/" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
@@ -82,12 +80,6 @@
   <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="9e84a42af61ff9c6feb89ab8d61ee5f25fb35c72" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
   <!-- linux-yocto Upstream branch is v5.10/standard/preempt-rt/base, commit 8048444fc7e44c6fc04a5e0b35d6117fe51c17fc that adds the preempt_rt patchset based on the same code of std kernel -->
   <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="8048444fc7e44c6fc04a5e0b35d6117fe51c17fc" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
-
-  <!-- LAT Upstream -->
-  <project remote="github-wr"  revision="refs/tags/20211104" name="meta-lat" path="cgcs-root/stx/git/meta-lat"/>
-
-  <!-- ostree debian Upstream -->
-  <project remote="debian"  revision="refs/tags/debian/2019.1-1" name="ostree.git" path="cgcs-root/stx/git/ostree"/>
 
   <!-- Pure Upstream -->
   <project remote="openstack" revision="stable/train"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
