@@ -38,10 +38,10 @@
   <project remote="openstack"  revision="stable/train" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
   <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
-  <!-- linux-yocto Upstream branch is v5.10/standard/base, commit 84f6a75f64961e59d61bf3d70ab17e8bb430386b is Merge tag 'v5.10.99' into v5.10/standard/base -->
-  <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="84f6a75f64961e59d61bf3d70ab17e8bb430386b" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
-  <!-- linux-yocto Upstream branch is v5.10/standard/preempt-rt/base, commit 53a27dc510c8d9152ffa4d2d95b888db7d3d97b6 that adds the preempt_rt patchset based on the same code of std kernel -->
-  <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="53a27dc510c8d9152ffa4d2d95b888db7d3d97b6" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
+  <!-- linux-yocto Upstream branch is v5.10/standard/base, commit 6cf7dea05bd756513cf58c5ced8c6bf1d1f23c15 is Merge tag 'v5.10.112' into v5.10/standard/base -->
+  <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="6cf7dea05bd756513cf58c5ced8c6bf1d1f23c15" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
+  <!-- linux-yocto Upstream branch is v5.10/standard/preempt-rt/base, commit bd6e7290bc766ef13e42a1e37f75e6e708b4e317 that adds the preempt_rt patchset based on the same code of std kernel -->
+  <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="bd6e7290bc766ef13e42a1e37f75e6e708b4e317" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
 
   <!-- Pure Upstream -->
   <project remote="openstack" revision="stable/train"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
