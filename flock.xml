@@ -5,7 +5,7 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <default revision="master" remote="starlingx"/>
+  <default revision="r/stx.7.0" remote="starlingx"/>
   <include name="common.xml" />
 
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
