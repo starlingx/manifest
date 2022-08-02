@@ -75,7 +75,9 @@
   <project remote="openstack"  revision="stable/train" name="python-openstackclient.git" path="cgcs-root/stx/git/python-openstackclient"/>
   <project remote="openstack"  revision="stable/train" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
   <project remote="openstack"  revision="stable/train" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
-  <project remote="gnocchi"    revision="master" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
+
+  <!-- Last known good build of python-gnochiclient, we were tracking master branch, This SHA is shortly after tag 7.0.7  -->
+  <project remote="gnocchi"    revision="afcf9900fe47f3d8c833eb9b8d62564cea1e7f25" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
   <!-- linux-yocto Upstream branch is v5.10/standard/base, commit 6cf7dea05bd756513cf58c5ced8c6bf1d1f23c15 is Merge tag 'v5.10.112' into v5.10/standard/base -->
   <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="6cf7dea05bd756513cf58c5ced8c6bf1d1f23c15" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
