@@ -59,7 +59,6 @@
   <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v14.2.22"  path="cgcs-root/stx/git/ceph" />
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0-1" path="cgcs-root/stx/git/qemu"/>
-  <project remote="stx-staging"  name="stx-ryu.git" path="cgcs-root/stx/git/ryu"/>
   <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
 
   <!-- Clients -->
