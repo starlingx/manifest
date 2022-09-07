@@ -26,7 +26,7 @@
   <project remote="starlingx"  name="containers.git" path="cgcs-root/stx/containers"/>
   <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/distributedcloud"/>
   <project remote="starlingx"  name="distcloud-client.git" path="cgcs-root/stx/distributedcloud-client"/>
-  <project remote="starlingx"  revision="master" name="docs.git" path="cgcs-root/stx/docs"/>
+  <project remote="starlingx"  name="docs.git" path="cgcs-root/stx/docs"/>
   <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/fault"/>
   <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/gui"/>
   <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/ha"/>
