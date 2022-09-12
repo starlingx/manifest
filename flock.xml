@@ -35,6 +35,7 @@
   <project remote="starlingx"  name="ptp-notification-armada-app.git" path="cgcs-root/stx/ptp-notification-armada-app"/>
   <project remote="starlingx"  name="rook-ceph.git" path="cgcs-root/stx/rook-ceph"/>
   <project remote="starlingx"  name="snmp-armada-app.git" path="cgcs-root/stx/snmp-armada-app"/>
+  <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
   <project remote="starlingx"  name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
   <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
   <project remote="starlingx"  name="utilities.git" path="cgcs-root/stx/utilities"/>
