@@ -35,6 +35,7 @@
   <project remote="starlingx"  name="helm-charts.git" path="cgcs-root/stx/helm-charts"/>
   <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ"/>
   <project remote="starlingx"  name="app-istio.git" path="cgcs-root/stx/app-istio"/>
+  <project remote="starlingx"  name="app-oran-o2.git" path="cgcs-root/stx/app-oran-o2"/>
   <project remote="starlingx"  name="app-sts-silicom.git" path="cgcs-root/stx/app-sts-silicom"/>
   <project remote="starlingx"  name="kernel.git" path="cgcs-root/stx/kernel"/>
   <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/metal"/>
