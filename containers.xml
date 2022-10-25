@@ -15,6 +15,7 @@
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
+  <project remote="starlingx"  name="app-security-profiles-operator.git" path="cgcs-root/stx/app-security-profiles-operator"/>
   <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
   <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
