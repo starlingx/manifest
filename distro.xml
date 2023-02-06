@@ -10,7 +10,7 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <default revision="master" remote="stx-staging"/>
+  <default revision="r/stx.8.0" remote="stx-staging"/>
   <include name="common.xml" />
 
   <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ" />
@@ -20,7 +20,7 @@
   <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v14.2.22" path="cgcs-root/stx/git/ceph"/>
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0-1" path="cgcs-root/stx/git/qemu"/>
-  <project remote="stx-staging"  name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
+  <project remote="stx-staging"  revision="4ba6047db1b70ee2bb3dd43739de7d2fb4e85ebd" name="stx-openstack-ras.git" path="cgcs-root/stx/git/openstack-ras"/>
 
   <!-- Clients -->
   <project remote="openstack"  revision="stable/train" name="python-aodhclient.git" path="cgcs-root/stx/git/python-aodhclient"/>
