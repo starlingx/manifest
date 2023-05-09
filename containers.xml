@@ -13,6 +13,7 @@
   <include name="common.xml" />
   
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
+  <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
   <project remote="starlingx"  name="app-security-profiles-operator.git" path="cgcs-root/stx/app-security-profiles-operator"/>
