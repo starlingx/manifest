@@ -9,6 +9,7 @@
   <include name="common.xml" />
 
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
+  <project remote="starlingx"  name="app-dell-storage.git" path="cgcs-root/stx/app-dell-storage"/>
   <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
   <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
