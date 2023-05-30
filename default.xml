@@ -47,6 +47,7 @@
   <project remote="starlingx"  name="monitoring.git" path="cgcs-root/stx/monitoring"/>
   <project remote="starlingx"  name="nfv.git" path="cgcs-root/stx/nfv"/>
   <project remote="starlingx"  name="nginx-ingress-controller-armada-app.git" path="cgcs-root/stx/nginx-ingress-controller-armada-app"/>
+  <project remote="starlingx"  name="app-node-feature-discovery.git" path="cgcs-root/stx/app-node-feature-discovery"/>
   <project remote="starlingx"  name="oidc-auth-armada-app.git" path="cgcs-root/stx/oidc-auth-armada-app"/>
   <project remote="starlingx"  name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
   <project remote="starlingx"  name="platform-armada-app.git" path="cgcs-root/stx/platform-armada-app"/>
