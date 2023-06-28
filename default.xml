@@ -13,6 +13,7 @@
   <default revision="master" remote="stx-staging"/>
 
   <project remote="starlingx"  name="jenkins-pipelines.git" path="stx-jenkins-pipelines"/>
+  <project remote="starlingx"  name="virtual-deployment.git" path="stx-virtual-deployment"/>
   <project remote="starlingx"  name="tools.git" path="stx-tools"/>
 
   <project remote="starlingx"  name="root.git" path="cgcs-root"/>
