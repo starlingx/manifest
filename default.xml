@@ -32,6 +32,7 @@
   <project remote="starlingx"  name="app-security-profiles-operator.git" path="cgcs-root/stx/app-security-profiles-operator"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
   <project remote="starlingx"  name="app-sts-silicom.git" path="cgcs-root/stx/app-sts-silicom"/>
+  <project remote="starlingx"  name="apt-ostree.git" path="cgcs-root/stx/apt-ostree"/>
   <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
   <project remote="starlingx"  name="cert-manager-armada-app.git" path="cgcs-root/stx/cert-manager-armada-app"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
