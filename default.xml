@@ -23,6 +23,7 @@
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
   <project remote="starlingx"  name="app-dell-storage.git" path="cgcs-root/stx/app-dell-storage"/>
   <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
+  <project remote="starlingx"  name="app-intel-device-plugins.git" path="cgcs-root/stx/app-intel-device-plugins"/>
   <project remote="starlingx"  name="app-istio.git" path="cgcs-root/stx/app-istio"/>
   <project remote="starlingx"  name="app-kubernetes-power-manager.git" path="cgcs-root/stx/app-kubernetes-power-manager"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
