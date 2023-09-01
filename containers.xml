@@ -16,6 +16,7 @@
   <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
   <project remote="starlingx"  name="app-intel-ethernet-operator.git" path="cgcs-root/stx/app-intel-ethernet-operator"/>
   <project remote="starlingx"  name="app-intel-device-plugins.git" path="cgcs-root/stx/app-intel-device-plugins"/>
+  <project remote="starlingx"  name="app-kubernetes-power-manager.git" path="cgcs-root/stx/app-kubernetes-power-manager"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
   <project remote="starlingx"  name="app-power-metrics.git" path="cgcs-root/stx/app-power-metrics"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
