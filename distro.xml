@@ -6,7 +6,6 @@
   <remote name="openstack" fetch="https://opendev.org/openstack" />
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
   <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
-  <remote name="linux-yocto" fetch="git://git.yoctoproject.org/" />
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
@@ -40,11 +39,6 @@
 
   <!-- Last known good build of python-gnochiclient, 7.0.7 tag -->
   <project remote="gnocchi"    revision="refs/tags/7.0.7" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
-
-  <!-- linux-yocto Upstream branch is v5.10/standard/base, commit 6cf7dea05bd756513cf58c5ced8c6bf1d1f23c15 is Merge tag 'v5.10.112' into v5.10/standard/base -->
-  <project remote="linux-yocto"    sync-c="true" sync-tags="false" upstream="v5.10/standard/base" revision="6cf7dea05bd756513cf58c5ced8c6bf1d1f23c15" name="linux-yocto" path="cgcs-root/stx/git/linux-yocto-std"/>
-  <!-- linux-yocto Upstream branch is v5.10/standard/preempt-rt/base, commit bd6e7290bc766ef13e42a1e37f75e6e708b4e317 that adds the preempt_rt patchset based on the same code of std kernel -->
-  <project remote="linux-yocto"    sync-c="true" sync-tags="false" clone-depth="100" upstream="v5.10/standard/preempt-rt/base" revision="bd6e7290bc766ef13e42a1e37f75e6e708b4e317" name="linux-yocto.git" path="cgcs-root/stx/git/linux-yocto-rt"/>
 
   <!-- Pure Upstream -->
   <!-- revisions point to branch stable/train as of 2023-05-04 -->
