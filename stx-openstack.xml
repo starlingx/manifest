@@ -9,7 +9,7 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <default revision="f/antelope" remote="starlingx"/>
+  <default revision="master" remote="starlingx"/>
 
   <project remote="starlingx"  name="root.git"                 path="cgcs-root"/>
 
