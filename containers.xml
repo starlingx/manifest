@@ -18,6 +18,7 @@
   <project remote="starlingx"  name="app-intel-device-plugins.git" path="cgcs-root/stx/app-intel-device-plugins"/>
   <project remote="starlingx"  name="app-kubernetes-power-manager.git" path="cgcs-root/stx/app-kubernetes-power-manager"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
+  <project remote="starlingx"  name="app-node-interface-metrics-exporter.git" path="cgcs-root/stx/app-node-interface-metrics-exporter"/>
   <project remote="starlingx"  name="app-power-metrics.git" path="cgcs-root/stx/app-power-metrics"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
   <project remote="starlingx"  name="app-security-profiles-operator.git" path="cgcs-root/stx/app-security-profiles-operator"/>
