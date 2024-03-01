@@ -9,9 +9,9 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
   
-  <default revision="master" remote="stx-staging"/>
+  <default revision="f/bookworm" remote="stx-staging"/>
   <include name="common.xml" />
-  
+
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
   <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
   <project remote="starlingx"  name="app-intel-ethernet-operator.git" path="cgcs-root/stx/app-intel-ethernet-operator"/>
@@ -20,20 +20,20 @@
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
   <project remote="starlingx"  name="app-node-interface-metrics-exporter.git" path="cgcs-root/stx/app-node-interface-metrics-exporter"/>
   <project remote="starlingx"  name="app-power-metrics.git" path="cgcs-root/stx/app-power-metrics"/>
-  <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
   <project remote="starlingx"  name="app-security-profiles-operator.git" path="cgcs-root/stx/app-security-profiles-operator"/>
+  <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
   <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
   <project remote="starlingx"  name="config.git" path="cgcs-root/stx/config"/>
   <project remote="starlingx"  name="config-files.git" path="cgcs-root/stx/config-files"/>
   <project remote="starlingx"  name="containers.git" path="cgcs-root/stx/containers"/>
-  <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/distributedcloud"/> 
+  <project remote="starlingx"  name="distcloud.git" path="cgcs-root/stx/distributedcloud"/>
   <project remote="starlingx"  name="distcloud-client.git" path="cgcs-root/stx/distributedcloud-client"/>
   <project remote="starlingx"  name="fault.git" path="cgcs-root/stx/fault"/>
   <project remote="starlingx"  name="gui.git" path="cgcs-root/stx/gui"/>
   <project remote="starlingx"  name="ha.git" path="cgcs-root/stx/ha"/>
   <project remote="starlingx"  name="helm-charts.git" path="cgcs-root/stx/helm-charts"/>
-  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ" />
+  <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ"/>
   <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/metal"/>
   <project remote="starlingx"  name="metrics-server-armada-app.git" path="cgcs-root/stx/metrics-server-armada-app"/>
   <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
@@ -45,13 +45,12 @@
   <project remote="starlingx"  name="portieris-armada-app.git" path="cgcs-root/stx/portieris-armada-app"/>
   <project remote="starlingx"  name="ptp-notification-armada-app.git" path="cgcs-root/stx/ptp-notification-armada-app"/>
   <project remote="starlingx"  name="rook-ceph.git" path="cgcs-root/stx/rook-ceph"/>
+  <project remote="starlingx"  name="SDO-rv-service.git" path="cgcs-root/stx/SDO-rv-service"/>
   <project remote="starlingx"  name="snmp-armada-app.git" path="cgcs-root/stx/snmp-armada-app"/>
   <project remote="starlingx"  name="stx-puppet.git" path="cgcs-root/stx/stx-puppet"/>
   <project remote="starlingx"  name="update.git" path="cgcs-root/stx/update"/>
   <project remote="starlingx"  name="upstream.git" path="cgcs-root/stx/upstream"/>
   <project remote="starlingx"  name="utilities.git" path="cgcs-root/stx/utilities"/>
   <project remote="starlingx"  name="vault-armada-app.git" path="cgcs-root/stx/vault-armada-app"/>
-  <project remote="starlingx"  name="virt.git" path="cgcs-root/stx/virt" />
-  <project remote="starlingx"  name="SDO-rv-service.git" path="cgcs-root/stx/SDO-rv-service"/>
+  <project remote="starlingx"  name="virt.git" path="cgcs-root/stx/virt"/>
 </manifest>
-
