@@ -5,10 +5,10 @@
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
   <remote name="gnocchi" fetch="https://github.com/gnocchixyz/" />
+  <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <remote name="stx-staging" fetch="https://github.com/starlingx-staging"/>
   <default revision="r/stx.9.0" remote="stx-staging"/>
 
   <project remote="starlingx"  name="jenkins-pipelines.git" path="stx-jenkins-pipelines"/>
