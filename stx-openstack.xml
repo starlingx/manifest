@@ -20,7 +20,7 @@
   <project remote="starlingx"  name="compile.git"              path="cgcs-root/stx/compile"/>
   <project remote="starlingx"  name="config.git"               path="cgcs-root/stx/config"/>
   <project remote="starlingx"  name="config-files.git"         path="cgcs-root/stx/config-files"/>
-  <project remote="starlingx"  revision="master"  name="docs.git"                 path="cgcs-root/stx/docs"/>
+  <project remote="starlingx"  name="docs.git"                 path="cgcs-root/stx/docs"/>
   <project remote="starlingx"  name="fault.git"                path="cgcs-root/stx/fault"/>
   <project remote="starlingx"  name="helm-charts.git"          path="cgcs-root/stx/helm-charts"/>
   <project remote="starlingx"  name="integ.git"                path="cgcs-root/stx/integ"/>
