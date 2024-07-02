@@ -20,7 +20,6 @@
   <project remote="starlingx"  name="public-keys.git" path="cgcs-root/public-keys"/>
 
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
-  <project remote="starlingx"  name="app-cstate-management.git" path="cgcs-root/stx/app-cstate-management"/>
   <project remote="starlingx"  name="app-dell-storage.git" path="cgcs-root/stx/app-dell-storage"/>
   <project remote="starlingx"  name="app-gen-tool.git" path="cgcs-root/stx/app-gen-tool"/>
   <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
