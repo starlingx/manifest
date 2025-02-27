@@ -100,10 +100,6 @@
   <!-- Last known good build of python-gnochiclient, 7.0.7 tag -->
   <project remote="gnocchi"    revision="refs/tags/7.0.7" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
 
-  <!-- Pure Upstream -->
-  <!-- revisions point to branch stable/train as of 2023-05-04 -->
-  <project remote="openstack" revision="ff702370a875f673d7d2d06ab7d29736540e9fda"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
-
   <!-- HPE Storage -->
   <project remote="hpe-storage" revision="refs/tags/4.2.3" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
   <project remote="hpe-storage" revision="refs/tags/2.1.0" name="python-lefthandclient.git" path="cgcs-root/stx/git/python-lefthandclient" />
