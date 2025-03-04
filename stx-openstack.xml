@@ -25,7 +25,7 @@
   <project remote="starlingx"  name="helm-charts.git"          path="cgcs-root/stx/helm-charts"/>
   <project remote="starlingx"  name="integ.git"                path="cgcs-root/stx/integ"/>
   <project remote="starlingx"  name="kernel.git"               path="cgcs-root/stx/kernel"/>
-  <project remote="starlingx"  revision="master" name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
+  <project remote="starlingx"  name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
   <project remote="starlingx"  name="update.git"               path="cgcs-root/stx/update"/>
   <project remote="starlingx"  name="utilities.git"            path="cgcs-root/stx/utilities"/>
   <project remote="starlingx"  name="virt.git"                 path="cgcs-root/stx/virt"/>
