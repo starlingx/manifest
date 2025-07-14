@@ -26,6 +26,7 @@
   <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
   <project remote="starlingx"  name="app-intel-ethernet-operator.git" path="cgcs-root/stx/app-intel-ethernet-operator"/>
   <project remote="starlingx"  name="app-intel-device-plugins.git" path="cgcs-root/stx/app-intel-device-plugins"/>
+  <project remote="starlingx"  name="app-ipsec-policy-operator.git" path="cgcs-root/stx/app-ipsec-policy-operator"/>
   <project remote="starlingx"  name="app-istio.git" path="cgcs-root/stx/app-istio"/>
   <project remote="starlingx"  name="app-kubernetes-power-manager.git" path="cgcs-root/stx/app-kubernetes-power-manager"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
@@ -77,6 +78,9 @@
   <project remote="starlingx"  name="virt.git" path="cgcs-root/stx/virt"/>
   <project remote="starlingx"  name="zuul-jobs.git" path="cgcs-root/stx/zuul-jobs"/>
 
+  <!-- Apt-Ostree -->
+  <project remote="starlingx"  revision="master"  name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
+
   <project remote="stx-staging"  name="stx-ceph.git" revision="stx/v14.2.22"  path="cgcs-root/stx/git/ceph" />
   <project remote="stx-staging"  name="stx-libvirt.git" revision="stx/v4.7.0-1" path="cgcs-root/stx/git/libvirt"/>
   <project remote="stx-staging"  name="stx-qemu.git" revision="stx/v3.0.0-1" path="cgcs-root/stx/git/qemu"/>
@@ -99,10 +103,6 @@
 
   <!-- Last known good build of python-gnochiclient, 7.0.7 tag -->
   <project remote="gnocchi"    revision="refs/tags/7.0.7" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
-
-  <!-- Pure Upstream -->
-  <!-- revisions point to branch stable/train as of 2023-05-04 -->
-  <project remote="openstack" revision="ff702370a875f673d7d2d06ab7d29736540e9fda"  name="horizon.git" path="cgcs-root/stx/git/horizon"/>
 
   <!-- HPE Storage -->
   <project remote="hpe-storage" revision="refs/tags/4.2.3" name="python-3parclient.git" path="cgcs-root/stx/git/python-3parclient" />
