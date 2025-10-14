@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
   <remote name="openstack" fetch="https://opendev.org/openstack" />
   <remote name="starlingx" fetch="https://opendev.org/starlingx" />
   <remote name="hpe-storage" fetch="https://github.com/hpe-storage" />
