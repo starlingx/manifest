@@ -13,7 +13,6 @@
   <project remote="starlingx"  name="app-distributed-cloud.git" path="cgcs-root/stx/app-distributed-cloud"/>
   <project remote="starlingx"  name="app-gen-tool.git" path="cgcs-root/stx/app-gen-tool"/>
   <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
-  <project remote="starlingx"  name="app-intel-ethernet-operator.git" path="cgcs-root/stx/app-intel-ethernet-operator"/>
   <project remote="starlingx"  name="app-intel-device-plugins.git" path="cgcs-root/stx/app-intel-device-plugins"/>
   <project remote="starlingx"  name="app-ipsec-policy-operator.git" path="cgcs-root/stx/app-ipsec-policy-operator"/>
   <project remote="starlingx"  name="app-istio.git" path="cgcs-root/stx/app-istio"/>
