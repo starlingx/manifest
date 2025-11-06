@@ -96,7 +96,6 @@
   <project remote="openstack"  revision="79959abc90bc615687e3a940951ad9ec548178ec" name="python-novaclient.git" path="cgcs-root/stx/git/python-novaclient"/>
   <project remote="openstack"  revision="d6675983c493f654685cb8ee8a01a5c55e9d65f6" name="python-openstackclient.git" path="cgcs-root/stx/git/python-openstackclient"/>
   <project remote="openstack"  revision="8a90d04e276c91df6f59a39a90ae6989053a0fc9" name="openstacksdk.git" path="cgcs-root/stx/git/python-openstacksdk"/>
-  <project remote="openstack"  revision="bee472d5f5b11bed1eb5bb67c06717fd8bc4008c" name="python-pankoclient.git" path="cgcs-root/stx/git/python-pankoclient"/>
 
   <!-- Last known good build of python-gnochiclient, 7.0.7 tag -->
   <project remote="gnocchi"    revision="refs/tags/7.0.7" name="python-gnocchiclient.git" path="cgcs-root/stx/git/python-gnocchiclient"/>
