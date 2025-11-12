@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="starlingx"      fetch="https://opendev.org/starlingx"/>
+  <remote name="stx-staging"    fetch="https://github.com/starlingx-staging"/>
+  <remote name="openstack"      fetch="https://opendev.org/openstack"/>
+  <remote name="docker"         fetch="https://github.com/docker"/>
+
+  <!-- note, you can also provide personal overrides for your own github -->
+  <!-- for tests/experiments -->
+
+  <default revision="refs/tags/11.0.0" remote="starlingx"/>
+
+  <project remote="starlingx"   name="root.git"                 path="cgcs-root"/>
+
+  <project remote="starlingx"   name="tools.git"                path="stx-tools"/>
+
+  <project remote="starlingx"   name="public-keys.git"          path="cgcs-root/public-keys"/>
+
+  <project remote="starlingx"   name="compile.git"              path="cgcs-root/stx/compile"/>
+  <project remote="starlingx"   name="config.git"               path="cgcs-root/stx/config"/>
+  <project remote="starlingx"   name="config-files.git"         path="cgcs-root/stx/config-files"/>
+  <project remote="starlingx"   name="docs.git"                 path="cgcs-root/stx/docs"/>
+  <project remote="starlingx"   name="fault.git"                path="cgcs-root/stx/fault"/>
+  <project remote="starlingx"   name="helm-charts.git"          path="cgcs-root/stx/helm-charts"/>
+  <project remote="starlingx"   name="integ.git"                path="cgcs-root/stx/integ"/>
+  <project remote="starlingx"   name="kernel.git"               path="cgcs-root/stx/kernel"/>
+  <project remote="starlingx"   name="openstack-armada-app.git" path="cgcs-root/stx/openstack-armada-app"/>
+  <project remote="starlingx"   name="update.git"               path="cgcs-root/stx/update"/>
+  <project remote="starlingx"   name="utilities.git"            path="cgcs-root/stx/utilities"/>
+  <project remote="starlingx"   name="virt.git"                 path="cgcs-root/stx/virt"/>
+
+  <!-- Apt-Ostree -->
+  <project remote="starlingx"   name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
+
+  <project remote="stx-staging"  name="stx-ceph.git"    revision="refs/tags/stx.11.0.0"  path="cgcs-root/stx/git/ceph"/>
+
+  <project remote="docker" revision="48294d928ced5dd9b378f7fd7c6f5da3ff3f2c89" name="distribution.git" path="cgcs-root/stx/git/docker-distribution"/>
+
+</manifest>
