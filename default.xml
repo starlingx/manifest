@@ -27,6 +27,7 @@
   <project remote="starlingx"  name="app-intel-device-plugins.git" path="cgcs-root/stx/app-intel-device-plugins"/>
   <project remote="starlingx"  name="app-ipsec-policy-operator.git" path="cgcs-root/stx/app-ipsec-policy-operator"/>
   <project remote="starlingx"  name="app-istio.git" path="cgcs-root/stx/app-istio"/>
+  <project remote="starlingx"  revision="master" name="app-kernel-module-management.git" path="cgcs-root/stx/app-kernel-module-management"/>
   <project remote="starlingx"  name="app-kubernetes-power-manager.git" path="cgcs-root/stx/app-kubernetes-power-manager"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
   <project remote="starlingx"  name="app-node-feature-discovery.git" path="cgcs-root/stx/app-node-feature-discovery"/>
