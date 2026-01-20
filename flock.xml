@@ -22,6 +22,7 @@
   <project remote="starlingx"  name="app-node-feature-discovery.git" path="cgcs-root/stx/app-node-feature-discovery"/>
   <project remote="starlingx"  name="app-node-interface-metrics-exporter.git" path="cgcs-root/stx/app-node-interface-metrics-exporter"/>
   <project remote="starlingx"  name="app-openbao.git" path="cgcs-root/stx/app-openbao"/>
+  <project remote="starlingx"  name="app-openvswitch.git" path="cgcs-root/stx/app-openvswitch"/>
   <project remote="starlingx"  name="app-oran-o2.git" path="cgcs-root/stx/app-oran-o2"/>
   <project remote="starlingx"  name="app-power-metrics.git" path="cgcs-root/stx/app-power-metrics"/>
   <project remote="starlingx"  name="app-rook-ceph.git" path="cgcs-root/stx/app-rook-ceph"/>
