@@ -16,7 +16,7 @@
   <project remote="starlingx"  name="app-intel-device-plugins.git" path="cgcs-root/stx/app-intel-device-plugins"/>
   <project remote="starlingx"  name="app-ipsec-policy-operator.git" path="cgcs-root/stx/app-ipsec-policy-operator"/>
   <project remote="starlingx"  name="app-istio.git" path="cgcs-root/stx/app-istio"/>
-  <project remote="starlingx"  revision="master" name="app-kernel-module-management.git" path="cgcs-root/stx/app-kernel-module-management"/>
+  <project remote="starlingx"  name="app-kernel-module-management.git" path="cgcs-root/stx/app-kernel-module-management"/>
   <project remote="starlingx"  name="app-kubernetes-power-manager.git" path="cgcs-root/stx/app-kubernetes-power-manager"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
   <project remote="starlingx"  name="app-node-feature-discovery.git" path="cgcs-root/stx/app-node-feature-discovery"/>
@@ -25,7 +25,7 @@
   <project remote="starlingx"  name="app-oran-o2.git" path="cgcs-root/stx/app-oran-o2"/>
   <project remote="starlingx"  name="app-power-metrics.git" path="cgcs-root/stx/app-power-metrics"/>
   <project remote="starlingx"  name="app-rook-ceph.git" path="cgcs-root/stx/app-rook-ceph"/>
-  <project remote="starlingx"  revision="master" name="app-seaweedfs.git" path="cgcs-root/stx/app-seaweedfs"/>
+  <project remote="starlingx"  name="app-seaweedfs.git" path="cgcs-root/stx/app-seaweedfs"/>
   <project remote="starlingx"  name="app-security-profiles-operator.git" path="cgcs-root/stx/app-security-profiles-operator"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
   <project remote="starlingx"  name="app-sts-silicom.git" path="cgcs-root/stx/app-sts-silicom"/>
@@ -61,5 +61,5 @@
   <project remote="starlingx"  name="vault-armada-app.git" path="cgcs-root/stx/vault-armada-app"/>
 
   <!-- Apt-Ostree -->
-  <project remote="starlingx"  revision="master"  name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
+  <project remote="starlingx"  name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
 </manifest>

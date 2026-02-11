@@ -23,7 +23,7 @@
   <project remote="starlingx"  name="app-openbao.git" path="cgcs-root/stx/app-openbao"/>
   <project remote="starlingx"  name="app-power-metrics.git" path="cgcs-root/stx/app-power-metrics"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
-  <project remote="starlingx"  revision="master" name="app-seaweedfs.git" path="cgcs-root/stx/app-seaweedfs"/>
+  <project remote="starlingx"  name="app-seaweedfs.git" path="cgcs-root/stx/app-seaweedfs"/>
   <project remote="starlingx"  name="app-security-profiles-operator.git" path="cgcs-root/stx/app-security-profiles-operator"/>
   <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
   <project remote="starlingx"  name="clients.git" path="cgcs-root/stx/clients"/>
