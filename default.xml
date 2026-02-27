@@ -57,6 +57,7 @@
   <project remote="starlingx"  name="integ.git" path="cgcs-root/stx/integ"/>
   <project remote="starlingx"  name="kernel.git" path="cgcs-root/stx/kernel"/>
   <project remote="starlingx"  name="metal.git" path="cgcs-root/stx/metal"/>
+  <project remote="starlingx"  name="metapackages.git" path="cgcs-root/stx/metapackages"/>
   <project remote="starlingx"  name="metrics-server-armada-app.git" path="cgcs-root/stx/metrics-server-armada-app"/>
   <project remote="starlingx"  name="monitor-armada-app.git" path="cgcs-root/stx/monitor-armada-app"/>
   <project remote="starlingx"  name="monitoring.git" path="cgcs-root/stx/monitoring"/>
