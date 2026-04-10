@@ -19,6 +19,7 @@
   <project remote="starlingx"  name="app-ipsec-policy-operator.git" path="cgcs-root/stx/app-ipsec-policy-operator"/>
   <project remote="starlingx"  name="app-kubernetes-power-manager.git" path="cgcs-root/stx/app-kubernetes-power-manager"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
+  <project remote="starlingx"  name="app-lvm-csi.git" path="cgcs-root/stx/app-lvm-csi"/>
   <project remote="starlingx"  name="app-node-interface-metrics-exporter.git" path="cgcs-root/stx/app-node-interface-metrics-exporter"/>
   <project remote="starlingx"  name="app-openbao.git" path="cgcs-root/stx/app-openbao"/>
   <project remote="starlingx"  name="app-openvswitch.git" path="cgcs-root/stx/app-openvswitch"/>

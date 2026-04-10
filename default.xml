@@ -30,6 +30,7 @@
   <project remote="starlingx"  name="app-kernel-module-management.git" path="cgcs-root/stx/app-kernel-module-management"/>
   <project remote="starlingx"  name="app-kubernetes-power-manager.git" path="cgcs-root/stx/app-kubernetes-power-manager"/>
   <project remote="starlingx"  name="app-kubevirt.git" path="cgcs-root/stx/app-kubevirt"/>
+  <project remote="starlingx"  name="app-lvm-csi.git" path="cgcs-root/stx/app-lvm-csi"/>
   <project remote="starlingx"  name="app-node-feature-discovery.git" path="cgcs-root/stx/app-node-feature-discovery"/>
   <project remote="starlingx"  name="app-node-interface-metrics-exporter.git" path="cgcs-root/stx/app-node-interface-metrics-exporter"/>
   <project remote="starlingx"  name="app-openbao.git" path="cgcs-root/stx/app-openbao"/>
