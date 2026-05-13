@@ -9,7 +9,7 @@
   <!-- note, you can also provide personal overrides for your own github -->
   <!-- for tests/experiments -->
 
-  <default revision="master" remote="starlingx"/>
+  <default revision="f/gazpacho" remote="starlingx"/>
 
   <project remote="starlingx"  name="root.git"                 path="cgcs-root"/>
 
@@ -31,7 +31,7 @@
   <project remote="starlingx"  name="virt.git"                 path="cgcs-root/stx/virt"/>
 
   <!-- Apt-Ostree -->
-  <project remote="starlingx"  revision="master"  name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
+  <project remote="starlingx"    name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
 
   <project remote="stx-staging"  name="stx-ceph.git"    revision="stx/v14.2.22"  path="cgcs-root/stx/git/ceph"/>
 
