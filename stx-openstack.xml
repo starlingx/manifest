@@ -32,6 +32,7 @@
   <project remote="starlingx"  name="update.git"               path="cgcs-root/stx/update"/>
   <project remote="starlingx"  name="utilities.git"            path="cgcs-root/stx/utilities"/>
   <project remote="starlingx"  name="virt.git"                 path="cgcs-root/stx/virt"/>
+  <project remote="starlingx"  name="zuul-jobs.git"            path="cgcs-root/stx/zuul-jobs"/>
 
   <!-- Apt-Ostree -->
   <project remote="starlingx"    name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
