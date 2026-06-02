@@ -14,6 +14,7 @@
   
   <project remote="starlingx"  name="ansible-playbooks.git" path="cgcs-root/stx/ansible-playbooks"/>
   <project remote="starlingx"  name="app-distributed-cloud.git" path="cgcs-root/stx/app-distributed-cloud"/>
+  <project remote="starlingx"  name="app-ejbca.git" path="cgcs-root/stx/app-ejbca"/>
   <project remote="starlingx"  name="app-harbor.git" path="cgcs-root/stx/app-harbor"/>
   <project remote="starlingx"  name="app-intel-device-plugins.git" path="cgcs-root/stx/app-intel-device-plugins"/>
   <project remote="starlingx"  name="app-ipsec-policy-operator.git" path="cgcs-root/stx/app-ipsec-policy-operator"/>
