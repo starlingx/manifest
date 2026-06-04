@@ -28,6 +28,7 @@
   <project remote="starlingx"  name="app-openvswitch.git" path="cgcs-root/stx/app-openvswitch"/>
   <project remote="starlingx"  name="app-oran-o2.git" path="cgcs-root/stx/app-oran-o2"/>
   <project remote="starlingx"  name="app-power-metrics.git" path="cgcs-root/stx/app-power-metrics"/>
+  <project remote="starlingx"  name="app-prometheus.git" path="cgcs-root/stx/app-prometheus"/>
   <project remote="starlingx"  name="app-ptp-metrics-exporter.git" path="cgcs-root/stx/app-ptp-metrics-exporter"/>
   <project remote="starlingx"  name="app-rook-ceph.git" path="cgcs-root/stx/app-rook-ceph"/>
   <project remote="starlingx"  name="app-seaweedfs.git" path="cgcs-root/stx/app-seaweedfs"/>
