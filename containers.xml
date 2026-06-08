@@ -26,6 +26,7 @@
   <project remote="starlingx"  name="app-openbao.git" path="cgcs-root/stx/app-openbao"/>
   <project remote="starlingx"  name="app-openvswitch.git" path="cgcs-root/stx/app-openvswitch"/>
   <project remote="starlingx"  name="app-power-metrics.git" path="cgcs-root/stx/app-power-metrics"/>
+  <project remote="starlingx"  name="app-prometheus.git" path="cgcs-root/stx/app-prometheus"/>
   <project remote="starlingx"  name="app-ptp-metrics-exporter.git" path="cgcs-root/stx/app-ptp-metrics-exporter"/>
   <project remote="starlingx"  name="app-reloader.git" path="cgcs-root/stx/app-reloader"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
