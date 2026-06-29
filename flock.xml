@@ -34,6 +34,7 @@
   <project remote="starlingx"  name="app-rook-ceph.git" path="cgcs-root/stx/app-rook-ceph"/>
   <project remote="starlingx"  name="app-seaweedfs.git" path="cgcs-root/stx/app-seaweedfs"/>
   <project remote="starlingx"  name="app-security-profiles-operator.git" path="cgcs-root/stx/app-security-profiles-operator"/>
+  <project remote="starlingx"  name="app-upgrade-operator.git" path="cgcs-root/stx/app-upgrade-operator"/>
   <project remote="starlingx"  name="app-sriov-fec-operator.git" path="cgcs-root/stx/app-sriov-fec-operator"/>
   <project remote="starlingx"  name="app-sts-silicom.git" path="cgcs-root/stx/app-sts-silicom"/>
   <project remote="starlingx"  name="audit-armada-app.git" path="cgcs-root/stx/audit-armada-app"/>
