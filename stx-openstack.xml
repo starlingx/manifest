@@ -14,10 +14,12 @@
   <project remote="starlingx"  name="root.git"                 path="cgcs-root"/>
 
   <project remote="starlingx"  name="tools.git"                path="stx-tools"/>
-  <project remote="starlingx"  name="jenkins-pipelines.git" path="stx-jenkins-pipelines"/>
+  <project remote="starlingx"  name="jenkins-pipelines.git"    path="stx-jenkins-pipelines"/>
+  <project remote="starlingx"  name="virtual-deployment.git"   path="stx-virtual-deployment"/>
 
   <project remote="starlingx"  name="public-keys.git"          path="cgcs-root/public-keys"/>
 
+  <project remote="starlingx"  name="clients.git"              path="cgcs-root/stx/clients"/>
   <project remote="starlingx"  name="compile.git"              path="cgcs-root/stx/compile"/>
   <project remote="starlingx"  name="config.git"               path="cgcs-root/stx/config"/>
   <project remote="starlingx"  name="config-files.git"         path="cgcs-root/stx/config-files"/>
@@ -33,7 +35,7 @@
   <project remote="starlingx"  name="zuul-jobs.git"            path="cgcs-root/stx/zuul-jobs"/>
 
   <!-- Apt-Ostree -->
-  <project remote="starlingx"  revision="master"  name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
+  <project remote="starlingx"    name="apt-ostree.git"  path="cgcs-root/stx/git/apt-ostree"/>
 
   <project remote="stx-staging"  name="stx-ceph.git"    revision="stx/v14.2.22"  path="cgcs-root/stx/git/ceph"/>
 
